@@ -1,0 +1,4 @@
+1) buy http://arduino.cc/en/Main/arduinoBoardUno and http://shieldlist.org/itead-studio/bluetooth
+2) connect bt shield on uno, with tx jumper on d5, rx jumper on d6. flip switch to cmd mode
+3) open sketch in arduino sdk (http://arduino.cc/en/Guide/HomePage)
+4) upload and open up serial monitor (38400 baud)
