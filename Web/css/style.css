@@ -1,0 +1,115 @@
+body {
+	background: #F0DFD0;
+	font-family: 'Asap', sans-serif;
+}
+
+h1.title {
+	font-family: 'Norican', cursive;
+	font-size: 80px;
+	margin-bottom: 35px;
+	color: #F21715;
+}
+
+p.subtitle {
+	font-family: 'Asap';
+	margin-left: 110px;
+	font-weight: 700;
+	font-style: italic;
+	color: #818181;
+	font-size: 18px;
+}
+
+#lola {
+	margin-left: 90px;
+}
+
+.info {
+	position: relative;
+	width: 395px;	
+	height: 1807px;
+	background: url('office.png') center 430px no-repeat;
+	padding: 20px 0 0;
+}
+
+.info h2 {
+	padding: 10px;
+	background: #229396;
+	color: #FFF;
+	text-shadow: 0px 2px 2px #0B4446;
+}
+
+.bubble {
+	margin: 10px 0 0 0px;
+	width: 395px;
+	height: 1920px;
+	background: #fff;
+	-moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 90; /* the stack order: displayed under ribbon rectangle (100) */
+	float: left;
+}
+
+.rectangle {
+	background: #7f9db9;
+	height: 50px;
+	width: 425px;
+	position: relative;
+	left:-15px;
+	top: 30px;
+	float: left;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	z-index: 100; /* the stack order: foreground */
+}
+
+.rectangle h2 {
+	font-size: 30px;
+	color: #fff;
+	padding-top: 6px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	text-align: center;
+	font-family: 'Norican', sans-serif;
+	font-weight: 700px;
+}
+
+.triangle-l {
+	border-color: transparent #7d90a3 transparent transparent;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: -30px;
+	top: 65px;
+	z-index: -1; /* displayed under bubble */
+}
+
+.triangle-r {
+	border-color: transparent transparent transparent #7d90a3;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: 395px;
+	top: 35px;
+	z-index: -1; /* displayed under bubble */
+}
+
+canvas {
+	width: 395px;
+	height: 1807px;
+	display: block;
+	float: left;
+	margin-top: 420px;
+}
+
+.clear {
+	clear: both;
+}
